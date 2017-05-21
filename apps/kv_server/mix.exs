@@ -37,6 +37,6 @@ defmodule KVServer.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:key_value, git: "https://github.com/thomascchen/key_value.git"}]
   end
 end
